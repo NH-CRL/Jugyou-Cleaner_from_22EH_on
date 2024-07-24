@@ -1,0 +1,54 @@
+p.loginInfo {
+  display: none !important;
+}
+
+/* td.colYobi div.jugyo-info div:nth-of-type(2){
+  display: none !important;
+} */
+
+td.colYobi div.jugyo-info div:nth-of-type(4){
+  display: none !important;
+}
+
+input#loginForm\:userId {
+  -webkit-text-security: disc !important;
+}
+
+
+input#sakujobutton {
+  margin: auto;
+}
+
+fieldset#howToDelete {
+  margin: 10px 400px 10px 180px;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset#edit_auto {
+  margin: 0px 10px 10px 15px;
+}
+
+input#selfile {
+  margin: 5px 0px 10px 5px;
+}
+
+.howToDelete_div {
+  margin: 5px 0px 10px 5px;
+}
+
+input#sakujobutton {
+  margin: 0px 5px 10px 10px;
+}
+
+fieldset#edit_viewer {
+  margin: 0px 15px 0px 15px;
+}
+
+fieldset#edit_manual {
+  margin: 0px 15px 0px 15px;
+}
+
+input#class_table_storage {
+  margin: 0px 10px 0px 5px;
+}

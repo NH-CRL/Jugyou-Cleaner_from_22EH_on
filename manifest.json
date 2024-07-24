@@ -1,0 +1,13 @@
+{
+    "name": "Jikanwari Cleaner2.5", 
+    "version": "2.0", 
+    "manifest_version": 3,
+    "description": "履修済みの授業を授業時間割表から削除します。",
+    "content_scripts": [
+        {
+            "matches": ["https://portal.sa.dendai.ac.jp/*"],
+            "css": ["styles.css"],
+            "js": ["jquery-3.6.0.min.js", "clean.js", "class_table_storage.js"]
+        }
+    ]
+}

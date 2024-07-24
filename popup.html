@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8"/>
+    <body>
+        <fieldset style="border:3px solid gray; display:flex; justify-content: center; align-items: center; width: fit-content;" id="howToDelete">
+            <legend>【編集ツール】</legend>
+                <fieldset style="border:3px dashed gray;" id="edit_auto">
+                    <legend>【自動】</legend>
+                    <div class="howToDelete_div">
+                        <input type="checkbox" id="compulsoryHilight" name="scales">
+                        <label for="scales">必修科目をハイライト</label>
+                        <form>
+                            <input id="color_auto" type="color" list="color-list1">
+                            <datalist id="color-list1">
+                                <option value="#DEFFDE"></option>
+                                <option value="#FFFFDE"></option>
+                                <option value="#FFDEFF"></option>
+                                <option value="#87ceeb"></option>
+                                <option value="#f4a460"></option>
+                            </datalist>
+                        </form>
+                    </div>
+                    <div class="howToDelete_div">
+                        <input type="checkbox" id="rishu_delete" name="horns">
+                        <label for="horns">履修済み科目を削除</label>
+                    </div>
+                    <div class="howToDelete_div">
+                        <input type="checkbox" id="sizenkagaku" name="horns">
+                        <label for="horns">自然科学概論を削除</label>
+                    </div>
+                    <div class="howToDelete_div">
+                        <input type="checkbox" id="ningenkagaku" name="horns">
+                        <label for="horns">人間科学科目を削除</label>
+                    </div>
+
+                    <input id="sakujobutton" type="button" value="チェック項目を実行" >
+                    <input id="class_table_storage" type="button" value="保存" >
+                </fieldset>
+            <div style="display:block">
+                <fieldset style="border:3px dashed gray;" id="edit_manual">
+                    <legend>【手動】</legend>
+                    <div class="howToDelete_div">
+                        <input type="checkbox" id="handDelete" name="horns">
+                        <label for="horns">削除</label>
+                    </div>
+                    <div class="howToDelete_div" style="display:flex">
+                        <input type="checkbox" id="highlight_manual" name="horns">
+                        <label for="horns">ハイライト</label>
+                        <form>
+                            <input id="color_manual" type="color" list="color-list2">
+                            <datalist id="color-list2">
+                                <option value="#DEFFDE"></option>
+                                <option value="#FFFFDE"></option>
+                                <option value="#FFDEFF"></option>
+                                <option value="#87ceeb"></option>
+                                <option value="#f4a460"></option>
+                            </datalist>
+                        </form>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset style="border:3px dashed gray;" id="edit_viewer">
+                    <legend>【保存した時間割を表示】</legend>
+                    <input type="file" id="selfile">
+                </fieldset>
+            </div>
+
+
+
+
+            
+        </fieldset>
+
+    </body>
+</html>
+
+
